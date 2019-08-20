@@ -26,7 +26,6 @@ namespace WS_Vzdynasklade_ActualCounts
             Doplneni = rn.Next(90, 100);
             StatRychlostVyrizeniZaS = rn.Next(20,40);
             StatOcekavanoObjednavekZaS = rn.Next(0, 1);
-            //throw new NotImplementedException();
         }
 
         public CountsObject()

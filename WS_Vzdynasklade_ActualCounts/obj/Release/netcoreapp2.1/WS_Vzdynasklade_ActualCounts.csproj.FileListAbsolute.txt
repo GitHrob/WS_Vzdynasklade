@@ -3,7 +3,6 @@ C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Relea
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.runtimeconfig.dev.json
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.dll
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.pdb
-C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.csprojAssemblyReference.cache
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.csproj.CoreCompileInputs.cache
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.RazorAssemblyInfo.cache
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.RazorAssemblyInfo.cs
