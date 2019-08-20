@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  ws_vzdynasklade_actualcounts:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  ws_vzdynasklade_statistiky:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+

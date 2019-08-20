@@ -1,0 +1,7 @@
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\bin\Release\WS_Vzdynasklade_ActualCounts.dll
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\bin\Release\WS_Vzdynasklade_Statistiky.dll
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\bin\Release\WS_Vzdynasklade_ActualCounts.pdb
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\bin\Release\WS_Vzdynasklade_Statistiky.pdb
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\obj\Release\docker-compose.dcprojAssemblyReference.cache
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\obj\Release\docker-compose.dcproj.CopyComplete

@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  ws_vzdynasklade_actualcounts:
+    image: wsvzdynaskladeactualcounts:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_ws_vzdynasklade_actualcounts$
+    volumes:
+      - C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts:/app
+      - C:\Users\Dan\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_ws_vzdynasklade_actualcounts$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_ws_vzdynasklade_actualcounts$ bin/Debug/netcoreapp2.1/WS_Vzdynasklade_ActualCounts.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+
+  ws_vzdynasklade_statistiky:
+    image: wsvzdynaskladestatistiky:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_ws_vzdynasklade_statistiky$
+    volumes:
+      - C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky:/app
+      - C:\Users\Dan\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_ws_vzdynasklade_statistiky$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_ws_vzdynasklade_statistiky$ bin/Debug/netcoreapp2.1/WS_Vzdynasklade_Statistiky.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
+

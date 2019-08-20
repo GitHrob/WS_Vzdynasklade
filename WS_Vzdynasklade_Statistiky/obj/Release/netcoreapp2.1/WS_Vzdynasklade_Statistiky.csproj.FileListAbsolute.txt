@@ -1,0 +1,14 @@
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.deps.json
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.runtimeconfig.json
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.runtimeconfig.dev.json
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.dll
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.pdb
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.csprojAssemblyReference.cache
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.RazorAssemblyInfo.cache
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.RazorAssemblyInfo.cs
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.AssemblyInfoInputs.cache
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.AssemblyInfo.cs
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.RazorTargetAssemblyInfo.cache
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.dll
+C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.pdb
