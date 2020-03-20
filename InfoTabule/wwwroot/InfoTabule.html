@@ -1,0 +1,186 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WMS report</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 202px;
+            font-size:4vw;
+        }
+
+        .auto-style2 {
+            height: 107px;
+            font-size:3vw;
+        }
+
+        .auto-style3 {
+            height: 77px;
+        }
+
+        .auto-style4 {
+            height: 77px;
+            width: 363px;
+        }
+
+        .auto-style5 {
+            height: 202px;
+            width: 363px;
+            font-size:4vw;
+        }
+
+        .auto-style6 {
+            height: 107px;
+            width: 363px;
+            font-size:3vw;
+        }
+
+        .auto-style7 {
+            height: 77px;
+            width: 508px;
+        }
+
+        .auto-style8 {
+            height: 202px;
+            width: 508px;
+            font-size:4vw;
+        }
+
+        .auto-style9 {
+            height: 107px;
+            width: 508px;
+            font-size:3vw;
+        }
+
+        .auto-style10 {
+            height: 17px;
+            width: 33%;
+        }
+    </style>
+    <script src="jquery.min.js"></script>
+    <script src="jquery.textfill.min.js"></script>
+    <script>
+
+
+
+
+        // set interval
+        var tid = setInterval(opakujvIntervalu, 2000);
+
+        function opakujvIntervalu() {
+            // do some stuff...
+            // no need to recall the function (it's an interval, it'll loop forever)
+            //nacitani hodnot z webApi WsDrMax do tabulky WMS report
+            changeValuesAjax();
+        }
+
+        function abortTimer() { // to be called when you want to stop the timer
+            clearInterval(tid);
+        }
+
+        function getWmsReportTime() {
+            var d = new Date($.now());
+            resultTime = d.getHours() + ":" +
+                (d.getMinutes() > 9 ? d.getMinutes() : "0" + d.getMinutes()) + ":" +
+                (d.getSeconds() > 9 ? d.getSeconds() : "0" + d.getSeconds());
+            $("#casAktualizace").text(resultTime);
+        }
+
+        function changeValuesAjax() {
+            $(document).ready(function () {
+                $.ajax({
+                    type: 'GET',
+                    //url: 'https://wsvzdynaskladeactualcounts.azurewebsites.net/api/counts',
+                    url: 'http://localhost:18708/api/counts',
+                    dataType: 'json',
+                    crossDomain: true,
+                    async: true,
+                    cache: false,
+                    success: function (data) {
+                        $.each(data, function (index, value) {
+                            //alert(index + ": " + value);
+                            switch (index) {
+                                case (0): $("#idPredNami").text(value);
+                                    break;
+                                case (1): $("#idHotovych").text(value);
+                                    break;
+                                case (2): $("#idZabaleno").text(value);
+                                    break;
+                                case (3): $("#idCekaDoplneni").text(value);
+                                    break;
+                                case (4): $("#idPrijemky").text(value);
+                                    break;
+                                case (5): $("#idSpatnyFormat").text(value);
+                                    break;
+                                default: alert("nic nevybrano, nespravna velikost pole z webapi sluzby != 6 cislic");
+                            }
+                            getWmsReportTime();
+                        });
+                        $("#idRowUpozorneni").hide();
+                        //alert(data);
+                    },
+                    error: function (data) {
+                        //alert('fail')
+                        $("#idRowUpozorneni").show();
+                    }
+                })
+            });
+
+        }
+
+
+
+
+    </script>
+</head>
+<body>
+    <form id="form1">
+                    <!--<div id='my-element'>
+                        <span>The quick brown fox jumps over the lazy dog</span>
+                    </div>-->
+        <div>
+            <table class="auto-style13">
+                <tr  style="height:15%">
+                    <td class="auto-style4" style="width: 33%; font-family: Arial; font-size: medium; font-weight: bolder; text-align: left; color: #000080;">GH</td>
+                    <td class="auto-style7" style="width: 33%; font-family: Arial; font-size: 4vw; font-weight: bolder; text-align: center;">report pro WMS  </td>
+                    <td class="auto-style3" style="width: 33%; font-family: Arial; font-size: medium; font-weight: bolder; text-align: right; color: #FF0000;">VždySkladem s.r.o</td>
+                </tr>
+                <tr>
+                    <td class="auto-style11" style="font-family: Arial; font-size: 3vw; text-align: left; " colspan="3">Čas aktualizace: <span id="casAktualizace">16:23:12</span> &nbsp;</td>
+                </tr>
+                <tr style="height:35%">
+                    <td class="auto-style5" style="border-width: 1px; border-color: #000000; background-color: #C0C0C0; font-family: Arial; font-weight: normal; text-align: center;">
+                        <div>Objednáno</div><br />
+                        <div style="color: #FF0000" id="idPredNami">2222</div>
+                    </td>
+                    <td class="auto-style8" style="border-width: 1px; border-color: #000000; background-color: #C0C0C0; font-family: Arial; font-weight: normal; text-align: center;">
+                        <div>Vyřízeno</div><br />
+                        <div style="color: #00FF00" id="idHotovych">2005</div>
+                    </td>
+                    <td class="auto-style1" style="border-width: 1px; border-color: #000000; background-color: #C0C0C0; font-family: Arial; font-weight: normal; text-align: center;">
+                        <div>Zabaleno</div><br />
+                        <div style="color: #000000" id="idZabaleno">1850</div>
+                    </td>
+                </tr>
+                <tr  style="height:35%">
+                    <td class="auto-style6" style="border-width: 1px; border-color: #000000; background-color: #C0C0C0; font-family: Arial; font-weight: normal; text-align: center;">
+                        <div>Čeká na doplnění</div><br />
+                        <div style="color: #000000" id="idCekaDoplneni">45</div>
+                    </td>
+                    <td class="auto-style9" style="border-width: 1px; border-color: #000000; background-color: #C0C0C0; font-family: Arial; font-weight: normal; text-align: center;">
+                        <div>Příjemky</div><br />
+                        <div style="color: #000000" id="idPrijemky">25</div>
+                    </td>
+                    <td class="auto-style2" style="border-width: 1px; border-color: #000000; background-color: #C0C0C0; font-family: Arial; font-weight: normal; text-align: center;">
+                        <div>Špatný formát</div><br />
+                        <div style="color: #000000" id="idSpatnyFormat">37</div>
+                    </td>
+                </tr>
+                <tr id="idRowUpozorneni" style="height:15%" hidden="hidden">
+                    <td class="auto-style14" style="font-family: Arial; font-size: medium; text-align: left; " colspan="3"><span id="idUpozorneni" style="font-family: Arial;font-weight: bold; font-size:3vw; border: thin solid #FF0066; background-color: #FFFF00;">upozornění: služba není dostupná!</span></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

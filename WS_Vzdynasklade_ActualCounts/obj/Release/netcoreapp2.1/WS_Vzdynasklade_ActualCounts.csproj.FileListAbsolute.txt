@@ -11,3 +11,19 @@ C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Relea
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.RazorTargetAssemblyInfo.cache
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.dll
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.pdb
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\appsettings.Development.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\appsettings.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.deps.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.runtimeconfig.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.runtimeconfig.dev.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.dll
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\bin\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.pdb
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.csprojAssemblyReference.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.RazorAssemblyInfo.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.RazorAssemblyInfo.cs
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.AssemblyInfoInputs.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.AssemblyInfo.cs
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.RazorTargetAssemblyInfo.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.dll
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Release\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.pdb

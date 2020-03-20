@@ -1,7 +1,7 @@
 services:
   ws_vzdynasklade_actualcounts:
     build:
-      context: C:\Users\Dan\Source\Repos\WS_Vzdynasklade
+      context: C:\Users\Daniel Hrobskř\Source\Repos\GitHrob\WS_Vzdynasklade
       dockerfile: WS_Vzdynasklade_ActualCounts/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -10,7 +10,7 @@ services:
     - target: 80
   ws_vzdynasklade_statistiky:
     build:
-      context: C:\Users\Dan\Source\Repos\WS_Vzdynasklade
+      context: C:\Users\Daniel Hrobskř\Source\Repos\GitHrob\WS_Vzdynasklade
       dockerfile: WS_Vzdynasklade_Statistiky/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
