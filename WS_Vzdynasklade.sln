@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS_Vzdynasklade_ActualCount
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WS_Vzdynasklade_Statistiky", "WS_Vzdynasklade_Statistiky\WS_Vzdynasklade_Statistiky.csproj", "{299FC214-F788-4388-9C45-E95938A8571B}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{95CBA5DD-1B64-470E-8E5E-460CBB2DD500}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTabule", "InfoTabule\InfoTabule.csproj", "{46F98A5E-9066-4B12-AF9A-27178C3E2A07}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{299FC214-F788-4388-9C45-E95938A8571B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299FC214-F788-4388-9C45-E95938A8571B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{299FC214-F788-4388-9C45-E95938A8571B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95CBA5DD-1B64-470E-8E5E-460CBB2DD500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95CBA5DD-1B64-470E-8E5E-460CBB2DD500}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95CBA5DD-1B64-470E-8E5E-460CBB2DD500}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95CBA5DD-1B64-470E-8E5E-460CBB2DD500}.Release|Any CPU.Build.0 = Release|Any CPU
 		{46F98A5E-9066-4B12-AF9A-27178C3E2A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{46F98A5E-9066-4B12-AF9A-27178C3E2A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F98A5E-9066-4B12-AF9A-27178C3E2A07}.Release|Any CPU.ActiveCfg = Release|Any CPU

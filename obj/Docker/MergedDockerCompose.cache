@@ -1,4 +1,18 @@
 services:
+  infotabule:
+    build:
+      context: C:\Users\Daniel Hrobskř\Source\Repos\GitHrob\WS_Vzdynasklade
+      dockerfile: InfoTabule/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: infotabule
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Daniel Hrobskř\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Daniel Hrobskř\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
   ws_vzdynasklade_actualcounts:
     build:
       context: C:\Users\Daniel Hrobskř\Source\Repos\GitHrob\WS_Vzdynasklade
