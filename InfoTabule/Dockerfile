@@ -13,10 +13,12 @@ COPY . .
 WORKDIR "/src/InfoTabule"
 RUN dotnet build "InfoTabule.csproj" -c Release -o /app/build
 
+ENV infoNadpis="Docker InfoTabule - env infoNadpis"
 FROM build AS publish
 RUN dotnet publish "InfoTabule.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
+EXPOSE 80
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "InfoTabule.dll"]

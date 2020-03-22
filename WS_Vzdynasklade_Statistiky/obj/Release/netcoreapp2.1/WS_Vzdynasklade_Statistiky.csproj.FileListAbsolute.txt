@@ -11,3 +11,19 @@ C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.RazorTargetAssemblyInfo.cache
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.dll
 C:\Users\Dan\Source\Repos\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.pdb
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\appsettings.Development.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\appsettings.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.deps.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.runtimeconfig.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.runtimeconfig.dev.json
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.dll
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\bin\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.pdb
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.csprojAssemblyReference.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.RazorAssemblyInfo.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.RazorAssemblyInfo.cs
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.AssemblyInfoInputs.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.AssemblyInfo.cs
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.RazorTargetAssemblyInfo.cache
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.dll
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Statistiky\obj\Release\netcoreapp2.1\WS_Vzdynasklade_Statistiky.pdb

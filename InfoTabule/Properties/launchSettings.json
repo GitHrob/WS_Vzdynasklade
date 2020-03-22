@@ -28,7 +28,9 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "publishAllPorts": true,
-      "useSSL": true
+      "httpPort": 51803,
+      "useSSL": true,
+      "sslPort": 44360
     }
   }
 }
