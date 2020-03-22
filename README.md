@@ -1,10 +1,13 @@
 # WS_Vzdynasklade
 Webová služba vrací aktuální statistiky pro Warehouse Management System (WMS)
-- aktuálně běží na azurewebsite v kontejneru na adrese
 
-https://wsvzdynaskladeactualcounts.azurewebsites.net/api/counts
+1/ Responsivní frontend - asp.net core 3 static webpage InfoTabule.html + bootstrap:
+https://infotabule20200322110245.azurewebsites.net/InfoTabule.html
 
-Frontend je v repository:
-StaticFrontendWSVzdyskladem 
+2/ zdroj dat pro fronend - služba asp.net core 3 Web Api
+  aktuálně běží na azurewebsite a v kontejneru na adrese
+https://wsvzdynaskladeactualcounts20200322111955.azurewebsites.net/api/counts
 
-vytvořený jako statická stránka s responzivním designem
+TODO: k dispozici jsou též Docker Image na Azure, zatím nejsou nakonfigurovány
+
+23.3.2020
