@@ -27,3 +27,4 @@ C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_Ac
 C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Debug\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.RazorTargetAssemblyInfo.cache
 C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Debug\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.dll
 C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Debug\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.pdb
+C:\Users\Daniel Hrobský\Source\Repos\GitHrob\WS_Vzdynasklade\WS_Vzdynasklade_ActualCounts\obj\Debug\netcoreapp2.1\WS_Vzdynasklade_ActualCounts.csprojAssemblyReference.cache

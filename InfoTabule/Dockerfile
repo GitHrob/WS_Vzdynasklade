@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["InfoTabule/InfoTabule.csproj", "InfoTabule/"]
 RUN dotnet restore "InfoTabule/InfoTabule.csproj"
-COPY . .
+COPY . ./
 WORKDIR "/src/InfoTabule"
 RUN dotnet build "InfoTabule.csproj" -c Release -o /app/build
 

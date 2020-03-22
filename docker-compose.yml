@@ -1,22 +1,10 @@
 version: '3.4'
 
 services:
-  ws_vzdynasklade_actualcounts:
-    image: ${DOCKER_REGISTRY}wsvzdynaskladeactualcounts
-    build:
-      context: .
-      dockerfile: WS_Vzdynasklade_ActualCounts/Dockerfile
-
-  ws_vzdynasklade_statistiky:
-    image: ${DOCKER_REGISTRY}wsvzdynaskladestatistiky
-    build:
-      context: .
-      dockerfile: WS_Vzdynasklade_Statistiky/Dockerfile
-
-
   infotabule:
     image: ${DOCKER_REGISTRY-}infotabule
     build:
       context: .
       dockerfile: InfoTabule/Dockerfile
-
+    ports:
+        - "8080:80"

@@ -15,5 +15,6 @@ RUN dotnet publish "WS_Vzdynasklade_ActualCounts.csproj" -c Release -o /app
 
 FROM base AS final
 WORKDIR /app
+EXPOSE 80
 COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "WS_Vzdynasklade_ActualCounts.dll"]
